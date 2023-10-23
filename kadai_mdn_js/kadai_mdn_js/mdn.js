@@ -1,3 +1,3 @@
-const date = new Date('August 22,23');
+const today = new Date();
 
-console.log( date.getFullYear() + '年' + (date.getMonth()+1) + '月' + date.getDate() + '日');
+console.log( today.getFullYear() + '年' + (today.getMonth()+1) + '月' + today.getDate() + '日');
